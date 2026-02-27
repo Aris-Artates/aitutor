@@ -39,3 +39,36 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Model files
+*.bin
+*.pt
+*.safetensors
+*.gguf
+*.ckpt
+
+# Data and outputs
+data/
+models/
+output/
+logs/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build and cache
+__pycache__/
+*.egg-info/
+dist/
+build/   
